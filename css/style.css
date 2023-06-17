@@ -885,11 +885,12 @@ span{
         background: url('../images/homep.jpg') no-repeat;
         background-size: cover;
         background-position: center;
+        opacity: .55;
     }
 
     .home-imgHover{
-        width: 100%;
-        opacity: .55;
+        width: 0;
+        height: 0;
     }
 
     .home-content{
