@@ -869,7 +869,7 @@ span{
     }
 }
 
-@media (max-width: 450px){
+@media (max-width: 600px){
     .footer{
         flex-direction: column-reverse;
     }
@@ -881,6 +881,14 @@ span{
 
     .home{
         justify-content: center;
+        background: url('../images/homep.jpg') no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .home-imgHover{
+        width: 100%;
+        opacity: .6;
     }
 
     .home-content{
@@ -888,6 +896,11 @@ span{
         align-items: center;
         flex-direction: column;
         text-align: center;
+        padding-bottom: 10rem;
+    }
+
+    .home-sci{
+        padding-bottom: 10rem;
     }
 
     .home-content h1{
