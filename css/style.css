@@ -881,6 +881,7 @@ span{
 
     .home{
         justify-content: center;
+        background: var(--bg-color);
         background: url('../images/homep.jpg') no-repeat;
         background-size: cover;
         background-position: center;
