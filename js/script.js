@@ -1,3 +1,15 @@
+window.addEventListener("load",() => {
+    const loader = document.querySelector(".loader");
+
+    setTimeout(() => {
+        loader.classList.add("loader-hidden");
+
+        loader.addEventListener("transitionend",() => {
+            document.body.removeChild("loader");
+        })
+    },1000);
+})
+
 let menuIcon = document.querySelector('#menu-icon');
 let navbar = document.querySelector('.navbar');
 
@@ -8,7 +20,6 @@ menuIcon.onclick =()=>{
 
 let sections = document.querySelectorAll('section');
 let navlinks = document.querySelectorAll('header nav a');
-
 
 window.onscroll = () =>{
     sections.forEach(sec => {
