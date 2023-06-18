@@ -53,6 +53,7 @@ ScrollReveal({
 });
 
 ScrollReveal().reveal('.home-content h1,.home-content .text-animate, .heading', { origin: 'top' });
-ScrollReveal().reveal('.home-sci, .btn, .skills-column, .project-box, .input-box, .textarea-field ', { origin: 'bottom' });
+ScrollReveal().reveal('.home-sci, .btn, .skills-column, .project-box', { origin: 'bottom' });
 ScrollReveal().reveal('.home-content p, .about-img, .education-column1', { origin: 'left' });
+ScrollReveal().reveal('.input-box, .textarea-field', { origin: 'bottom',reset: false });
 ScrollReveal().reveal('.about .about-content h3,.about .about-content p, .education-column2', { origin: 'right' });
