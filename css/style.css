@@ -343,16 +343,29 @@ span{
     gap: 5rem;
 }
 
-.education .education-column{
+.education .education-column1{
     flex: 1 1 40rem;
 }
 
-.education-column .title{
+.education-column1 .title{
     font-size: 2.5rem;
     margin: 0 0 1.5rem 2rem;
 }
 
-.education-column .education-box{
+.education-column1 .education-box{
+    border-left: .2rem solid var(--main-color);
+}
+
+.education .education-column2{
+    flex: 1 1 40rem;
+}
+
+.education-column2 .title{
+    font-size: 2.5rem;
+    margin: 0 0 1.5rem 2rem;
+}
+
+.education-column2 .education-box{
     border-left: .2rem solid var(--main-color);
 }
 
