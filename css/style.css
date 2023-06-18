@@ -1116,12 +1116,13 @@ a:link { text-decoration: none; }
     }
   }
   .loader {
-    font-size: 5px;
+    font-size: 3px;
     background-color: #081b29;
     height: 100%;
     width: 100%;
     position: fixed;
     z-index: 101;
+    text-align: center;
   }
 
   .loader-hidden{
@@ -1139,8 +1140,8 @@ a:link { text-decoration: none; }
   }
   
   .mouth, .eye, .dino {
-    width: 1em;
-    height: 1em;
+    width: .9em;
+    height: .9em;
   }
   
   .dino {
