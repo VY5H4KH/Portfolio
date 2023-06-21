@@ -12,7 +12,7 @@ function l(){
             head.innerHTML="Places <span>App</span>";
             break;
         case "qr":
-            head.innerHTML="QR Scanner() <span>App</span>";
+            head.innerHTML="QR Scanner <span>App</span>";
             break;
     }
     const img1=document.querySelector(".img1");
