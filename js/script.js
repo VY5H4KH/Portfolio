@@ -56,3 +56,24 @@ ScrollReveal().reveal('.home-content h1,.home-content .text-animate, .heading', 
 ScrollReveal().reveal('.home-sci, .btn, .skills-column, .project-box, .input-box, .textarea-field ', { origin: 'bottom' });
 ScrollReveal().reveal('.home-content p, .about-img, .education-column1', { origin: 'left' });
 ScrollReveal().reveal('.about .about-content h3,.about .about-content p, .education-column2', { origin: 'right' });
+
+function chat()
+{
+    sessionStorage.clear();
+    sessionStorage.setItem("Proj","chat");
+}
+function fish()
+{
+    sessionStorage.clear();
+    sessionStorage.setItem("Proj","fish");
+}
+function places()
+{
+    sessionStorage.clear();
+    sessionStorage.setItem("Proj","place");
+}
+function qr()
+{
+    sessionStorage.clear();
+    sessionStorage.setItem("Proj","qr");
+}

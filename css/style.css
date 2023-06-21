@@ -337,6 +337,10 @@ span{
     padding-top: 5rem;
 }
 
+.education .heading{
+    padding-top: 3rem;
+}
+
 .education .education-row{
     display: flex;
     flex-wrap: wrap;
